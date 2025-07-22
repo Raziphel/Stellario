@@ -21,8 +21,8 @@
         "distant-misfires >= 0.14.3",
         "aai-containers >= 0.3.1",
         "aai-industry >= 0.6.10",
-        "robot_attrition >= 0.6.3",
         "aai-loaders >= 0.2.7",
+        "robot_attrition >= 0.6.3",
         "? bullet-trails >= 0.7.1"
     ],
     "settings-updates": ["settings-updates.lua"]
