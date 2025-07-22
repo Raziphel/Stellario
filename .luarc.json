@@ -1,0 +1,30 @@
+{
+	"runtime": {
+		"version": "Lua 5.2"
+	},
+	"diagnostics": {
+		"globals": [
+			"data",
+			"script",
+			"remote",
+			"commands",
+			"settings",
+			"defines",
+			"PlanetsLib"
+		]
+	},
+	"workspace": {
+		"library": [
+			"${workspaceFolder}/__space-age__",
+			"${workspaceFolder}/__core__",
+			"${workspaceFolder}/__base__"
+		]
+	},
+    "diagnostics.disable": [
+        "undefined-field",
+        "undefined-global",
+        "inject-field",
+        "need-check-nil",
+        "lowercase-global"
+    ]
+}

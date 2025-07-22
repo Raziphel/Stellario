@@ -1,0 +1,21 @@
+{
+	"[lua]": {
+		"editor.defaultFormatter": "sumneko.lua",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 4,
+		"editor.insertSpaces": true
+	},
+	"factorio.versions": [
+        {
+            "name": "System",
+            "factorioPath": "C:\\Program Files\\Factorio\\bin\\x64\\factorio.exe"
+        }
+    ],
+	"python-envs.defaultEnvManager": "ms-python.python:system",
+	"python-envs.pythonProjects": [],
+	"explorer.excludeGitIgnore": true,
+	"Lua.workspace.checkThirdParty": "ApplyInMemory",
+	"Lua.workspace.userThirdParty": [
+		"c:\\Users\\hi\\AppData\\Roaming\\Code\\User\\workspaceStorage\\7b34132958cf423ac8d3b9242cab7c45\\justarandomgeek.factoriomod-debug\\sumneko-3rd"
+	]
+}
