@@ -1,13 +1,15 @@
+-- Control so the map gen UI shows it
 data:extend({
-  -- Normal resource
-  {
-    type = "autoplace-control",
-    name = "silica",
-    localised_name = { "", "[entity=silica] ", { "autoplace-control-name.silica" } },
-    category = "resource",
-    richness = true,
-    order = "b[silica]"
-  },
+    {
+        type = "autoplace-control",
+        name = "raw-silica",
+        localised_name = { "", "[entity=raw-silica] ", { "autoplace-control-name.raw-silica" } },
+        category = "resource",
+        richness = true,
+        order = "b[raw-silica]"
+    },
 })
 
-data.raw.planet["nauvis"].map_gen_settings.autoplace_controls["silica"] = {}
+-- Tell Nauvis to include it
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["raw-silica"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["raw-silica"] = {}

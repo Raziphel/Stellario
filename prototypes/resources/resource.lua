@@ -1,4 +1,4 @@
-local resource_autoplace = require("resource-autoplace")
+local resource_autoplace = require('resource-autoplace');
 local base_sounds = require("__base__.prototypes.entity.sounds")
 
 
@@ -93,10 +93,12 @@ end
 
 
 data:extend({
-    define_basic_resource("silica",
+    define_basic_resource("raw-silica",
         {
-            icon = "__StellarioAssets__/graphics/icons/silica.png",
-            order = "d[silica]",
+            icon = "__StellarioAssets__/graphics/icons/raw-silica.png",
+            icon_size = 64,
+            icon_mipmaps = 1,
+            order = "d",
             stages_filename = "__StellarioAssets__/graphics/resources/silica-patches.png",
             map_color = { r = 0.925, g = 0.925, b = 0.900 },
             mining_visualisation_tint = { r = 1.000, g = 1.000, b = 1.000, a = 1.000 },
@@ -118,10 +120,10 @@ data:extend({
         {
             base_density = 100,
             has_starting_area_placement = true,
-            regular_rq_factor_multiplier = 1.10,
-            starting_rq_factor_multiplier = 1.5,
+            regular_rq_factor_multiplier = 0.8,
+            starting_rq_factor_multiplier = 0.0,
             random_spot_size_minimum = 0.1,
             random_spot_size_maximum = 0.2,
-            candidate_spot_count = 22
+            candidate_spot_count = 8
         })
 })

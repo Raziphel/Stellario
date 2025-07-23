@@ -4,9 +4,9 @@ require("prototypes.categories.bioprocessing")
 require("prototypes.categories.science")
 
 -- Resources
-require("prototypes.resources.resource")
-require("prototypes.resources.particle")
 require("prototypes.resources.autoplace-control")
+require("prototypes.resources.particle")
+require("prototypes.resources.resource")
 
 -- Base
 require("prototypes.item")

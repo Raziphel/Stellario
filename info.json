@@ -5,7 +5,7 @@
     "author": "Raziphel",
     "description": "An overhaul for Factorio built around the Space Age expansion.",
     "factorio_version": "2.0",
-    "contact": "https://github.com/raziphel/Stellario/issues",
+    "contact": "https://discord.gg/razi",
     "homepage": "https://github.com/raziphel/Stellario",
     "space_travel_required": true,
     "spoiling_required": true,
@@ -19,10 +19,12 @@
         "PlanetsLib >= 1.8.2",
         "combat-mechanics-overhaul >= 0.7.2",
         "distant-misfires >= 0.14.3",
+        "robot_attrition >= 0.6.3",
+        "light-overhaul >= 0.2.2",
         "aai-containers >= 0.3.1",
         "aai-industry >= 0.6.10",
         "aai-loaders >= 0.2.7",
-        "robot_attrition >= 0.6.3",
+        "loaders-modernized >= 0.8.14",
         "? bullet-trails >= 0.7.1"
     ],
     "settings-updates": ["settings-updates.lua"]
