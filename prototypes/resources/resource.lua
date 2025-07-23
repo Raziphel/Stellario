@@ -124,6 +124,6 @@ data:extend({
             starting_rq_factor_multiplier = 0.0,
             random_spot_size_minimum = 0.1,
             random_spot_size_maximum = 0.2,
-            candidate_spot_count = 8
+            candidate_spot_count = 3
         })
 })

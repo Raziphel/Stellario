@@ -8,6 +8,7 @@ require("prototypes.resources.autoplace-control")
 require("prototypes.resources.particle")
 require("prototypes.resources.resource")
 
--- Base
-require("prototypes.item")
-require("prototypes.recipe")
+-- Products
+require("prototypes.products.item")
+require("prototypes.products.recipe")
+require("prototypes.products.recipe-updates")
