@@ -10,3 +10,4 @@ require("prototypes.resources.resource")
 
 -- Base
 require("prototypes.item")
+require("prototypes.recipe")
