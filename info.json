@@ -26,6 +26,8 @@
         "aai-loaders >= 0.2.7",
         "loaders-modernized >= 0.8.14",
         "? bullet-trails >= 0.7.1",
+        "? momentum >= 1.0.1",
+        "? fire-lights >= 0.13.2",
         "? EnableWhen >= 1.0.4",
         "? LogisticTrainNetwork >= 2.3.4",
         "? LTN_Combinator_Modernized >= 2.2.5"

@@ -125,5 +125,40 @@ data:extend({
             random_spot_size_minimum = 0.1,
             random_spot_size_maximum = 0.2,
             candidate_spot_count = 3
+        }),
+    define_basic_resource("lead-ore",
+        {
+            icon = "__StellarioAssets__/graphics/icons/lead-ore.png",
+            icon_size = 64,
+            icon_mipmaps = 1,
+            order = "d",
+            stages_filename = "__StellarioAssets__/graphics/resources/lead-patches.png",
+            map_color = { r = 0.38, g = 0.33, b = 0.36 },
+            mining_visualisation_tint = { r = 0.85, g = 0.5, b = 0.65, a = 1.0 },
+            results = {
+                { type = "item", name = "lead-ore", amount = 1 }
+            },
+            custom_stages = {
+                sheet = {
+                    filename = "__StellarioAssets__/graphics/resources/lead-patches.png",
+                    priority = "extra-high",
+                    size = 128,
+                    frame_count = 8,
+                    variation_count = 8,
+                    scale = 0.5
+                }
+            },
+            stage_counts = {
+                15000, 12000, 9000, 6000, 4000, 2000, 1000, 500
+            }
+        },
+        {
+            base_density = 100,
+            has_starting_area_placement = true,
+            regular_rq_factor_multiplier = 1.2,
+            starting_rq_factor_multiplier = 0.5,
+            random_spot_size_minimum = 0.1,
+            random_spot_size_maximum = 0.2,
+            candidate_spot_count = 3
         })
 })

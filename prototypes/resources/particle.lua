@@ -79,4 +79,5 @@ end
 
 data:extend({
   particle("raw-silica-particle", { r = 1.0, g = 1.0, b = 1.0, a = 1.0 }),
+  particle("lead-ore-particle", { r = 0.85, g = 0.5, b = 0.65, a = 1.0 }),
 })
