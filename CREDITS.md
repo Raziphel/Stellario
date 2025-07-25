@@ -8,9 +8,9 @@ MeteorSwarm (Creator of Muluna) for help on this project.
 All of the development team at "The Foundry" modding group on Discord for help and support.
 (<https://discord.com/invite/VuVhYUBbWE>)
 
-## CREDITS FOR REQUIRED MODS
+## CREDITS FOR GRAPHICS USED
 
-thesixthrock for 'PlanetsLib'.
+brevven for 'Lead' & 'Silicon'
 
 ## MESSAGE TO ENJOYERS OF THE MOD
 

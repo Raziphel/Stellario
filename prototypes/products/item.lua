@@ -53,5 +53,24 @@ data:extend({
         order = "a[lead-ore]",
         stack_size = 100,
         weight = 4.5 * kg,
-    }
+    },
+    {
+        type = "item",
+        name = "lead-plate",
+        icon = "__StellarioAssets__/graphics/icons/lead-plate.png",
+        icon_size = 64,
+        icon_mipmaps = 3,
+        pictures = {
+            {
+                size = 64,
+                filename = "__StellarioAssets__/graphics/icons/lead-plate.png",
+                scale = 1,
+                mipmap_count = 4
+            }
+        },
+        subgroup = "intermediate-product",
+        order = "a[lead-plate]",
+        stack_size = 100,
+        weight = 4.5 * kg,
+    },
 })

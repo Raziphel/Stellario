@@ -23,5 +23,6 @@ data:extend {
 
 -- Move dem dare science packs!
 data.raw["item-subgroup"]["science-pack"].group = "science"
+data.raw["item"]["burner-lab"].subgroup = "lab"
 data.raw["item"]["lab"].subgroup = "lab"
 data.raw["item"]["biolab"].subgroup = "lab"
